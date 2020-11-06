@@ -1,0 +1,376 @@
+@import url(./client_fonts.css);
+
+
+
+*{padding:0;
+margin:0;}
+
+/*---------------- nav Area stats ---------------*/
+.nav-area
+{
+	background-color: #FAF5EF !important;
+	padding: 15px 0px;
+}
+
+.nav-area span
+{
+	z-index: 3 !important;
+	opacity: 2 !important;
+	color:blue !important;
+}
+
+.nav-area a,p
+{
+	color:black !important;
+}
+.nav-area a i
+{
+	padding: 9px;
+	background-color: black;
+	border-radius: 100%;
+	color: #f0e9d1;
+}
+
+
+/*--------------------------Gallery Area starts ---------------------*/
+
+.gallery-area
+{
+	position: relative;
+	background-color: #8C7D66;
+	width: 100%;
+	height: 80vh;
+}
+
+.gallery-area .gallery-area-heading 
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.gallery-area .gallery-area-heading h2
+{
+	font-family: Titillium_Web;
+	
+	color:#736145;
+}
+
+.gallery-area .side-text-area
+{
+	position: absolute;
+	//top:50%;
+	left:3%;
+	bottom: 0%;
+	
+}
+
+.gallery-area .side-text-area h4
+{
+	color:#3A3736;
+
+}
+
+
+.gallery-area .side-text-area h3
+{
+
+color:#373435;
+}
+
+/*----------------------------------- first row rea starts ------------------*/
+
+.firt-row-area
+{
+	position: relative;
+	background-color: #E2D5C7;
+	width: 100%;
+	height: 100%;
+
+}
+
+.firt-row-area ul
+{
+	display: flex;
+}
+
+.firt-row-area ul li
+{
+	list-style: none;
+	width: 16%;
+	//justify-content: center;
+	//text-align: center;
+	
+	border-right: 2px solid #5D5755;	
+}
+
+.firt-row-area ul .end
+{
+	border: none;
+}
+
+.firt-row-area ul li a
+{
+	color:#5D5755; 
+	//width: 16%;
+	text-align:center;
+
+}
+
+.firt-row-area .row-area
+{
+	text-align: justify;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.firt-row-area .row-area p
+{
+	color:#595351;
+
+}
+
+.firt-row-area .row-area h3 h5  
+{
+	color:#595351;
+
+}
+
+.firt-row-area .row-area h6
+{
+	color:color:#736145;;
+}
+
+
+.firt-row-area .row-area img
+{
+	border-radius: 20px;
+}
+
+.firt-row-area .row-area .col-area2:before
+{
+	position: absolute;
+	top: 15%;
+	left: 0%;
+	right: 0;
+	bottom: 0;
+	width: 2px;
+	height: 80%;
+	background: #B7AEA5;
+	content: "";
+	border-radius: 50px;
+	
+}
+
+.row-area .col-area2 .img-text
+{
+   margin-top: -60px;
+   margin-left: 20px;
+   color:#fff;
+}
+
+
+
+/*--------------------------- second area starts --------------------*/
+
+
+.sec-row-area
+{
+	position: relative;
+	background-color: #F6EBE0;
+	padding: 0rem 3rem 4rem 3rem;
+
+}
+
+.sec-row-area .row-area
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.sec-row-area .row-area .bucolic
+{
+	color: #848688;
+	font-family: Titillium_Web;
+	font-weight: bold;
+	font-size: 500;
+	margin-top: -25px;
+	margin-bottom: -5px;
+}
+
+.sec-row-area .row-area .singles
+{
+	font-family: Titillium_Web;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: -28px;
+	//margin-bottom: -5px;
+}
+
+.sec-row-area .row-area .charm
+{
+	
+	font-family: Titillium_Web;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: -23px;
+}
+
+.sec-row-area .row-area .family
+{
+	position: absolute;
+	top:0;
+	right: 0%;
+	transform: translate(-7%,20%);
+	color: #848688;
+	font-family: Titillium_Web;
+	font-weight: bold;
+	font-size: 50px;
+	margin-top: -20px;
+	display: flex;
+	//padding-right: 10px;
+	//margin-bottom: -5px;
+	//margin-right: 15px;
+}
+
+.sec-row-area .col-text img
+{
+	border-radius: 20px;
+
+}
+
+.sec-row-area .col-text p
+{
+	text-align: justify;
+	color: #373435;
+	
+}
+
+
+.sec-row-area .row-area-last h3
+{
+	color: #373435;
+	font-family: Titillium_Web;
+	font-weight: bold;
+
+}
+
+.sec-row-area .row-area-last .extra:before
+{
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	right: 0;
+	bottom: 0;
+	width: 2px;
+	height: 60%;
+	background: #B7AEA5;
+	content: "";
+	border-radius: 50px;
+	
+}
+
+.sec-row-area .row-area-last .col-text h4
+{
+	color: #727376;
+	color: #373435;
+	font-family: Titillium_Web;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+
+.last-row-area
+{
+	padding: 0rem 0rem 4rem 0rem;
+	position: relative;
+	background-color: #FAF5EF;
+}
+
+
+.last-row-area .last-heading h2
+{
+
+	font-family: Titillium_Web;
+	font-weight: bold;
+	font-size: 45px;
+	letter-spacing: .3px;
+	position: absolute;
+	top: -2%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	color: #4B4B4D;
+}
+
+.last-row-area .row-area 
+{
+	padding: 4rem 0rem 2rem 0rem;
+}
+
+.last-row-area .last-heading h2:after
+{
+	position:absolute;
+	top: 60%;
+	left: 80%;
+	transform: translate(50%,-30%);
+
+	content:"";
+	//top:0;
+	height: 2px;
+	width: 25vw;
+	background:#A19E9C;
+	display: inline-block;
+	//margin-left: 100%;
+	//transform: translateY(5%);
+}
+
+
+//.last-row-area .row-area
+{
+
+	position: absolute;
+	top:50%;
+	left:58%;
+	transform: translate(-50%,-50%);
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.last-row-area .row-area .img-area img
+{
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+	.firt-row-area .row-area .col-area2:before
+ 	{
+ 		display: none;
+
+ 	}
+}
+
+
+
+
+ @media only screen and (max-width: 991px)
+ {
+ 	.side-text li
+ 	{
+ 		display: none;
+
+ 	}
+ }
